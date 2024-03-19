@@ -78,14 +78,12 @@ https://github.com/spyder-ide/lektor-icon/blob/master/NOTICE.txt
     $section.waypoint(
       function (direction) {
         if (direction === "down") {
-          $section
-            .css({
-              position: "fixed",
-              top: 0,
-              width: "100%",
-              "z-index": 99999,
-            })
-            .addClass("fh5co-shadow");
+          $section.css({
+            position: "fixed",
+            top: 0,
+            width: "100%",
+            "z-index": 99999,
+          });
         }
       },
       {

@@ -65,7 +65,7 @@
 {%- block body %}
 
 {%- if this.hero_image %}
-<div id="section-home" class="hero-section" data-section="home" data-stellar-background-ratio="0.5">
+<div id="section-home" class="hero-section" data-section="home">
   <div class="container">
     <div class="row row-cols-1 row-cols-lg-2 g-0 justify-content-center justify-content-lg-start">
       <div class="col">
@@ -101,7 +101,7 @@
   <div class="video-spacer"></div>
   {%- endif %}
   {%- if main_block.title or main_block.description %}
-  <div class="text-center fh5co-heading">
+  <div class="fh5co-heading text-center">
     <h2>{{ main_block.title }}</h2>
     {{ main_block.description }}
   </div>
