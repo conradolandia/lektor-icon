@@ -68,14 +68,6 @@ https://github.com/spyder-ide/lektor-icon/blob/master/NOTICE.txt
     });
   };
 
-  // Parallax
-  // const parallax = function () {
-  //  $(window).stellar({
-  //    horizontalScrolling: false,
-  //    responsive: true,
-  //  });
-  // };
-
   // Hide the sidebar if user scrolls the page
   const scrolledWindow = function () {
     $(window).on("scroll", function () {
@@ -171,7 +163,6 @@ https://github.com/spyder-ide/lektor-icon/blob/master/NOTICE.txt
     setHeroHeight();
     loaderPage();
     fh5coTabs();
-    // parallax();
     scrolledWindow();
     clickMenu();
     navigationSection();
